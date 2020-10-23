@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+#container{
+    margin: 50px;
+    margin-top: 0;
+    text-align:center;
+}
+#cabecalho{
+    text-align: center;
+    padding-bottom: 0px;
+}
+#cabecalho img{
+    height:220px;
+    width: 220px;
+}
+#menu{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 65px;
+    text-align: center;
+    background-color:#4d0000 ;
+}
+#menu li{
+    list-style-type: none;
+    display: inline;
+}
+#menu a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;/*Retira o sublinhado do iperlink*/
+    padding:10px 20px;
+    margin: 0 30px 0 30px;
+    line-height: 65px;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+#menu li a:hover{
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 6px;
+    padding: 19px;
+}
+#conteudo{
+
+    padding: 10px 0px;
+    display: grid;/*Transforma o conteudo em uma grade*/
+    grid-template-columns: 32.5% 32.5% 32.5% ;/*Três colunas na grid*/
+    grid-gap: 15px; /*Distancia uma coluna da outra*/
+    border-radius: 10px;
+}
+#c1{
+    padding: 10px;
+    background-color:#B22222;
+    border-radius: 10px;
+    color: white;
+}
+#c2{
+    padding: 10px;
+    background-color:#8B0000;
+    border-radius: 10px;
+    color: white;
+}
+#c3{
+    padding: 10px;
+    background-color:#800000;
+    border-radius: 10px;
+    color: white;
+}
+#logo{
+    padding: 0;
+}
+.images_site{
+    width: 100%;
+    height:200px;
+    border-radius: 10px;
+}
+#ticket{
+    border: 1px solid black;
+}
+.h2_conteudo{
+    text-align: center;
+    font-family: Arial;
+}
+.p_conteudo{
+    text-align: justify;
+    font-family: tahoma; 
+}
+#logo_bottom{
+    width: 150px;
+    height: 150px;
+    padding: 0%;
+    border-radius: 50%;
+}
+#carroussel{
+
+}
+#galeria{
+    background-color: #f5deb3;
+    display: grid;
+    grid-template-columns: 19.5% 19.5%  19.5% 19.5% 19.5%;/*Divide a coluna em 5 partes*/
+    grid-gap: 0.62;/*Espaço entre as colunas*/
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+}
+.img_galeria{
+    width: 100%;
+    height: 250px;
+}
+
+.img_galeria:hover{
+    box-shadow: 10px 5px 10px black;
+}
+#jumbotron{
+    text-align:center;
+    padding: 50px 240px;
+}
+#jumbotron p{
+    font-family: Calibri;
+    font-size: 20px;
+    color: #666;
+}
+.button_jumbo{
+    padding: 10px 70px;
+    background-color: #d68a67;
+    font-family: Calibri;
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+}
+#jumbotron button:hover{
+    background-color: #be7b5c;
+    transition: 0.5s;
+}
+#rodape{
+    padding: 50px;
+    color:white;
+    background-color: #4d0000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 8%;
+}
+#rodape a{
+    text-decoration:none;
+    color: white;
+}
+#rodape a:hover{
+    color: #f8990a;
+    transition: 0.3s;
+}
